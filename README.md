@@ -1,9 +1,9 @@
-## [TITAN platform](https://github.com/benhid/titan-platform) 
+## [TITAN platform](https://github.com/KhaosResearch/titan-platform) 
 
 ---
 
 [![Python](https://img.shields.io/badge/python-3.7-blue.svg?style=flat-square)](https://python.org)
-[![License](https://img.shields.io/github/license/benhid/titan-platform.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0)
+[![License](https://img.shields.io/github/license/KhaosResearch/TITAN-API.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg?style=flat-square)](https://github.com/psf/black)
 
 TITAN is a semantic-enhanced workflow management system that provides several architectural levels to deal with the processes from the design to the execution of workflows:

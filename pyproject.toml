@@ -3,9 +3,9 @@ name = "titan"
 version = "0.5.0"
 readme = "README.md"
 description = "TITAN platform API services"
-homepage = "https://github.com/benhid/titan-platform/"
-repository = "https://github.com/benhid/titan-platform/"
-authors = ["Antonio Benítez Hidalgo <antoniobenitezhid@gmail.com>"]
+homepage = "https://github.com/KhaosResearch/titan-platform/"
+repository = "https://github.com/KhaosResearch/titan-platform/"
+authors = ["Antonio Benítez Hidalgo <khaos.research@gmail.com>"]
 classifiers=[
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3.7",
