@@ -1,0 +1,25 @@
+mongo:
+  image: mongo:4.2.0-bionic
+  container_name: titan-db
+  ports:
+    - "27017:27017"
+  environment:
+    MONGO_INITDB_ROOT_USERNAME: titan
+    MONGO_INITDB_ROOT_PASSWORD: root
+  volumes:
+    - ./volumes/mongo/db/:/data/db
+  restart: always
+virtuoso:
+  image: tenforce/virtuoso:1.1.0-virtuoso7.2.4
+  container_name: titan-rdfdb
+  ports:
+    - "8086:8890"
+    - "1111:1111"
+  environment:
+    DBA_PASSWORD: root
+    SPARQL_UPDATE: true
+    DEFAULT_GRAPH: http://www.example.com/my-graph
+  volumes:
+    - ./volumes/virtuoso/data:/data
+  mem_limit: 16000m
+  restart: always
