@@ -20,7 +20,7 @@ Before running `titan`, save a copy of [`.env.template`](.env.template) as `.env
 Via source code using [Poetry](https://github.com/python-poetry/poetry):
 
 ```console
-$ git clone https://github.com/benhid/titan-platform.git
+$ git clone https://github.com/KhaosResearch/TITAN-API.git
 $ cd titan-platform
 $ poetry install
 ```
